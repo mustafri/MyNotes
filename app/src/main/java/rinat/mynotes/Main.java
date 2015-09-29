@@ -167,7 +167,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
         super.onResume();
         Log.d(TAG, "MainActivity:onResume");
 
-       /*  Intent viewNote=getIntent();
+        Intent viewNote=getIntent();
         String action = viewNote.getAction();
         Toast.makeText(this, action, Toast.LENGTH_SHORT).show();
         if(action.equals("ChangeNote")) {
@@ -177,7 +177,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
             data_storage.add(m);
            sAdapter.notifyDataSetChanged();
         }
-*/
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
